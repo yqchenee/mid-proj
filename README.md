@@ -1,50 +1,25 @@
-npm install
-npm audit fix
-cd client && npm install
-cd ..
-npm start
+# PASSBOOK
 
-
-# Vocabulary Word Card
-
-A web-based study application that allows students to memorize vocabulary words via flipped cards.
+A web-based application that helps us to record when and how much money we deposit or withdraw. 
 
 ### How to start?
 
 1. Clone the repository
-2. Use `npm install` to install packages for backend
+2. Use `npm install` to install packages for backend, `npm audit fix` if needed.
 3. Then `cd client` and use `npm install` to install packages for front end
-4. After installing, `cd ..` to go back to the root directory and use `node server.js` to run the server
-5. Then `cd client` and use `npm start` to run the client
-6. The website should now running on `localhost:3000`
-
-### How it works?
-
-Unflipped Cards            |  Flippable Cards
-:-------------------------:|:-------------------------:
-![](https://i.imgur.com/cUf4UEg.png)  |  ![](https://i.imgur.com/EQTAe3O.png)
-
-
-     
-* Your word list will be sorted by `Times appeared` of each word in descending order. (My main function!)
-* You can add your vocabulary words by entering the text fields on the side, and press `ADD WORD`.
-* If a word was already in your word list, the number of `Times appeared` on the card will increase and the card will move forward.
-* You can delete the word by pressing the `delete` icon, or you can clear the whole word list by pressing `DELETE ALL` on the side.
-* Switch the `Flip Cards` on the side can change your cards to flippable cards, enable you to start learning your vocabulary words.
-
+4. After installing, `cd ..` to go back to the root directory and use `npm start` to start the application.
+5. The website should now running on `localhost:3000`
 
 ### Development
 * Client-side programs in React.js
 * Server-side programs in Express (Node.js)
+* Socket.io to connect client-side and server-side
 * Database in Mongodb
 
 ### My Contribution
 
-Design the user interface and the functions, and all the implementation except the packages mensioned above.
+Design the user interface and the functions.
 
 ### Reflection
-
-* Their are lots of useful packages available for your react app, like material-ui makes my app's interface a little bit like Google's.
-* Using server to do some action is quite convenient XD
-* The bugs I met while using `socket.io` still confused me a lot...
-
+* Learn much about socket.io, and how it play with React.js
+* It's hard and waste time to design a good-looking UI, so I still need to be familiar with some  Internet source ,like bootstrap...
