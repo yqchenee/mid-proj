@@ -1,3 +1,10 @@
+npm install
+npm audit fix
+cd client && npm install
+cd ..
+npm start
+
+
 # Vocabulary Word Card
 
 A web-based study application that allows students to memorize vocabulary words via flipped cards.
