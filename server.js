@@ -20,7 +20,7 @@ http.listen(port, () => {
 })
 
 // Connect to mongo
-mongoose.connect('mongodb+srv://a6330610:a6330610@cluster0-aqhwd.mongodb.net/test?retryWrites=true', {
+mongoose.connect('< Your MONGOdb >', {
     useNewUrlParser: true
 })
 db = mongoose.connection
@@ -41,19 +41,6 @@ db.once('open', () => {
             console.log(Name)
             socket.emit('inputNameBack')
         })
-
-        // First time running
-        
-        /*Message.find()
-            .limit(100)
-            .sort({ _id: 1 , name : 1})
-            .exec((err, res) => {
-                if (err) throw err
-                console.log('================')
-                console.log(res)
-                console.log('================')
-            })
-        */
 
         socket.on('need init' , data => {
             Message.find( {'name': data.name })
