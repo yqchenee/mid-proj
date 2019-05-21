@@ -1,0 +1,26 @@
+
+.input-name{
+    padding: 5px 25px 5px 5px ;
+    margin: 0px 0px 0px 15px ;
+    background-color: rgb(202, 202, 202) ;
+    font-weight: bold;
+}
+
+#show_status{
+    height: 15px;
+}
+
+.dropdown-toggle{
+    background-image: none;
+    border-color: #ccc;
+    margin: 0px 0px 0px 15px
+}
+
+@media only screen and (max-width: 500px) {
+    .input-name{
+        padding: 5px 3px 5px 1px ;
+        background-color: rgb(202, 202, 202) ;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}

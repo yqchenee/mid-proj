@@ -1,0 +1,22 @@
+{
+  "name": "mid-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "test": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "socket.io": "^2.2.0"
+  }
+}

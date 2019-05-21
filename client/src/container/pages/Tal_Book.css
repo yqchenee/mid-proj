@@ -1,0 +1,29 @@
+
+.row{
+    margin: 0px ;
+}
+
+#welcomeMessage{
+    font-size: 150%;
+    font-weight: bold
+}
+
+.data_top{
+    min-height: 70vh;
+    max-height: 70vh;
+    margin : 0% 0% 5% 0% ;
+    width : 100%;
+    overflow: auto;
+}
+.input_bottom{
+    width: 100% ;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-height: 500px) {
+    .data_top{
+        min-height: 40vh;
+        max-height: 40vh;
+        margin : 0% 0% 2% 0% ;
+    }
+}
