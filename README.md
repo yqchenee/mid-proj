@@ -5,10 +5,11 @@ A web-based application that helps us to record when and how much money we depos
 ### How to start?
 
 1. Clone the repository
-2. Use `npm install` to install packages for backend, `npm audit fix` if needed.
-3. Then `cd client` and use `npm install` to install packages for front end
-4. After installing, `cd ..` to go back to the root directory and use `npm start` to start the application.
-5. The website should now running on `localhost:3000`
+2. Change to your mongodb account in server.js
+3. Use `npm install` to install packages for backend, `npm audit fix` if needed.
+4. Then `cd client` and use `npm install` to install packages for front end
+5. After installing, `cd ..` to go back to the root directory and use `npm start` to start the application.
+6. The website should now running on `localhost:3000`
 
 ### Development
 * Client-side programs in React.js
